@@ -2891,6 +2891,10 @@
       <apexClass>ChangePasswordControllerTest</apexClass>
       <enabled>true</enabled>
    </classAccesses>
+   <classAccesses>
+      <apexClass>CommunitiesLandingController</apexClass>
+      <enabled>true</enabled>
+   </classAccesses>
    <custom>false</custom>
    <customMetadataTypeAccesses>
       <enabled>true</enabled>
