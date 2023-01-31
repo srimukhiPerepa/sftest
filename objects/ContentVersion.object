@@ -45,6 +45,7 @@
     </fields>
     <fields>
         <fullName>IsAssetEnabled</fullName>
+        <description>Assert file</description>
     </fields>
     <fields>
         <fullName>Language</fullName>
