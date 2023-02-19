@@ -2895,6 +2895,10 @@
       <apexClass>CommunitiesLandingController2</apexClass>
       <enabled>false</enabled>
    </classAccesses>
+   <classAccesses>
+      <apexClass>CommunitiesLandingControllerTest</apexClass>
+      <enabled>false</enabled>
+   </classAccesses>
    <custom>true</custom>
    <customMetadataTypeAccesses>
       <enabled>true</enabled>
