@@ -8,13 +8,5 @@
         <plural>true</plural>
         <value>Waypoints</value>
     </caseValues>
-    <fields>
-        <label><!-- Test_Custom_Field --></label>
-        <name>Test_Custom_Field__c</name>
-    </fields>
     <startsWith>Consonant</startsWith>
-    <validationRules>
-        <errorMessage><!-- User must not be active. --></errorMessage>
-        <name>activeError</name>
-    </validationRules>
 </CustomObjectTranslation>

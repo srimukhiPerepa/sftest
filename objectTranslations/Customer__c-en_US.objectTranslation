@@ -8,17 +8,5 @@
         <plural>true</plural>
         <value>Customers</value>
     </caseValues>
-    <fields>
-        <label><!-- Customer_Externalid --></label>
-        <name>Customer_Externalid__c</name>
-    </fields>
-    <fields>
-        <label><!-- Email --></label>
-        <name>Email__c</name>
-    </fields>
-    <fields>
-        <label><!-- Phone No --></label>
-        <name>Phone_No__c</name>
-    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

@@ -186,6 +186,13 @@
         <fullName>ExpectedRevenue</fullName>
     </fields>
     <fields>
+        <fullName>FD_ExternalId__c</fullName>
+        <displayFormat>FD-{0000}</displayFormat>
+        <externalId>true</externalId>
+        <label>FD_ExternalId</label>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
         <fullName>HierarchyActualCost</fullName>
     </fields>
     <fields>

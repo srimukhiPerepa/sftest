@@ -190,6 +190,24 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Customers</pluralLabel>
+    <profileSearchLayouts>
+        <fields>NAME</fields>
+        <fields>CREATEDBY_USER</fields>
+        <fields>CREATED_DATE</fields>
+        <profileName>FlexDeploy Manager</profileName>
+    </profileSearchLayouts>
+    <profileSearchLayouts>
+        <fields>NAME</fields>
+        <fields>Email__c</fields>
+        <fields>Phone_No__c</fields>
+        <profileName>Flex User</profileName>
+    </profileSearchLayouts>
+    <profileSearchLayouts>
+        <fields>NAME</fields>
+        <fields>OWNER.FIRST_NAME</fields>
+        <fields>OWNER.LAST_NAME</fields>
+        <profileName>Flex Lead</profileName>
+    </profileSearchLayouts>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

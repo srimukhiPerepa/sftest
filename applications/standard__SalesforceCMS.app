@@ -14,6 +14,7 @@
     <tabs>Sample2__c</tabs>
     <tabs>Bank_Branch__c</tabs>
     <tabs>Customer__c</tabs>
+    <tabs>Test_sample__c</tabs>
     <uiType>Lightning</uiType>
     <workspaceConfig>
         <mappings>
@@ -27,6 +28,9 @@
         </mappings>
         <mappings>
             <tab>Sample2__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Test_sample__c</tab>
         </mappings>
         <mappings>
             <tab>standard-CmsAuthorHome</tab>

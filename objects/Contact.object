@@ -373,6 +373,13 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>FD_ExternalId__c</fullName>
+        <displayFormat>FD-{0000}</displayFormat>
+        <externalId>true</externalId>
+        <label>FD_ExternalId</label>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
         <fullName>FD_Version__c</fullName>
         <description>test</description>
         <externalId>false</externalId>
@@ -382,6 +389,11 @@
     <fields>
         <fullName>Fax</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>GenderIdentity</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
     </fields>
     <fields>
         <fullName>HasOptedOutOfEmail</fullName>
@@ -483,6 +495,11 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Pronouns</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
         <fullName>ReportsToId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
@@ -502,11 +519,6 @@
         <unique>false</unique>
     </fields>
     <listViews>
-        <fullName>AllContacts</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All Contacts</label>
-    </listViews>
-    <listViews>
         <fullName>BirthdaysThisMonth</fullName>
         <filterScope>Everything</filterScope>
         <filters>
@@ -518,6 +530,13 @@
     </listViews>
     <listViews>
         <fullName>MyContacts</fullName>
+        <columns>FD_ExternalId__c</columns>
+        <columns>FULL_NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>CONTACT.PHONE1</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>CORE.USERS.ALIAS</columns>
         <filterScope>Mine</filterScope>
         <label>My Contacts</label>
     </listViews>

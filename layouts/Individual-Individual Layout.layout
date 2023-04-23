@@ -30,6 +30,10 @@
                 <behavior>Edit</behavior>
                 <field>CanStorePiiElsewhere</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>FD_ExternalId__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

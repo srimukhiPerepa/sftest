@@ -40,7 +40,7 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <tabSettings>
-        <tab>standard-Account</tab>
-        <visibility>Available</visibility>
+        <tab>Dashboard</tab>
+        <visibility>Visible</visibility>
     </tabSettings>
 </PermissionSet>

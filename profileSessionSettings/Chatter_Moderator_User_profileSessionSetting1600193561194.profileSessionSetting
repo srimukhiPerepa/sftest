@@ -2,7 +2,7 @@
 <ProfileSessionSetting xmlns="http://soap.sforce.com/2006/04/metadata">
     <externalCommunityUserIdentityVerif>false</externalCommunityUserIdentityVerif>
     <forceLogout>false</forceLogout>
-    <profile>Chatter Moderator User</profile>
+    <profile>chatter moderator user</profile>
     <sessionPersistence>false</sessionPersistence>
     <sessionTimeout>240</sessionTimeout>
     <sessionTimeoutWarning>false</sessionTimeoutWarning>

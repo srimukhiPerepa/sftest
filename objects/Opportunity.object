@@ -260,6 +260,14 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>FD_ExternalId__c</fullName>
+        <displayFormat>FD-{0000}</displayFormat>
+        <externalId>true</externalId>
+        <label>FD_ExternalId</label>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
         <fullName>FD_Sequence__c</fullName>
         <displayFormat>FD-{0000}</displayFormat>
         <externalId>false</externalId>

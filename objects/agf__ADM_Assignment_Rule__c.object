@@ -392,6 +392,24 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Assignment Rules</pluralLabel>
+    <profileSearchLayouts>
+        <fields>NAME</fields>
+        <fields>agf__Additional_Emails__c</fields>
+        <fields>agf__Record_Type__c</fields>
+        <fields>agf__Product_Owner__c</fields>
+        <profileName>FlexDeploy Lead</profileName>
+    </profileSearchLayouts>
+    <profileSearchLayouts>
+        <fields>NAME</fields>
+        <fields>agf__Tech_Writer_Assignment__c</fields>
+        <profileName>Identity User</profileName>
+    </profileSearchLayouts>
+    <profileSearchLayouts>
+        <fields>NAME</fields>
+        <fields>OBJECT_ID</fields>
+        <fields>agf__Assignee_Assignment__c</fields>
+        <profileName>Flex User</profileName>
+    </profileSearchLayouts>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
