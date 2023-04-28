@@ -8,5 +8,21 @@
         <plural>true</plural>
         <value>Bank Branchs</value>
     </caseValues>
+    <fields>
+        <label><!-- Address --></label>
+        <name>Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank_ExternalId --></label>
+        <name>Bank_ExternalId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code --></label>
+        <name>Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone No --></label>
+        <name>Phone_No__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

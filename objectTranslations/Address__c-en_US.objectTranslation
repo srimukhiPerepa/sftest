@@ -8,5 +8,14 @@
         <plural>true</plural>
         <value>Addresses</value>
     </caseValues>
+    <fields>
+        <label><!-- Custom_Field_Testing --></label>
+        <name>Custom_Field_Testing__c</name>
+    </fields>
+    <fields>
+        <help><!-- Testing custom field --></help>
+        <label><!-- Test_Custom_Field1 --></label>
+        <name>Test_Custom_Field1__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
