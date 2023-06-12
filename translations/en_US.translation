@@ -3687,6 +3687,15 @@
         </sections>
     </reportTypes>
     <reportTypes>
+        <description><!-- Bot Metrics Daily Summer &apos;23 --></description>
+        <label><!-- Bot Metrics Daily Summer &apos;23 --></label>
+        <name>Bot_Metrics_Daily_v5</name>
+        <sections>
+            <label><!-- Conversation Definition Dialog Daily Metrics --></label>
+            <name>Conversation Definition Dialog Daily Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
         <description><!-- Bot Metrics Hourly Winter &apos;23 --></description>
         <label><!-- Bot Metrics Hourly Winter &apos;23 --></label>
         <name>Bot_Metrics_Hourly_v3</name>
@@ -3705,6 +3714,15 @@
         </sections>
     </reportTypes>
     <reportTypes>
+        <description><!-- Bot Metrics Hourly Summer &apos;23 --></description>
+        <label><!-- Bot Metrics Hourly Summer &apos;23 --></label>
+        <name>Bot_Metrics_Hourly_v5</name>
+        <sections>
+            <label><!-- Conversation Definition Dialog Hourly Metrics --></label>
+            <name>Conversation Definition Dialog Hourly Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
         <description><!-- Session Metrics Winter &apos;23 --></description>
         <label><!-- Session Metrics Winter &apos;23 --></label>
         <name>Bot_Sessions_v3</name>
@@ -3717,6 +3735,15 @@
         <description><!-- Session Metrics Spring &apos;23 --></description>
         <label><!-- Session Metrics Spring &apos;23 --></label>
         <name>Bot_Sessions_v4</name>
+        <sections>
+            <label><!-- Conversation Definition Session Metrics --></label>
+            <name>Conversation Definition Session Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Session Metrics Summer &apos;23 --></description>
+        <label><!-- Session Metrics Summer &apos;23 --></label>
+        <name>Bot_Sessions_v5</name>
         <sections>
             <label><!-- Conversation Definition Session Metrics --></label>
             <name>Conversation Definition Session Metrics</name>
