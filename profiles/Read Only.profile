@@ -3040,6 +3040,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__AlbatrossPatch1MigrationService</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__AllowEnvOnlyWhenNoSubmissionsFTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -3900,6 +3904,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__DuplicateEventProcessingException</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__DuplicatePullRequestException</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -4193,10 +4201,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__FunctionsResponseV1</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__Ga2MigrationService</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -4709,6 +4713,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__Migrator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__MissingNecessaryFieldsException</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -5468,7 +5476,11 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__RebaseOldParentMigrator</apexClass>
+        <apexClass>sf_devops__RebaseBranchMigrator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RebaseBranchReference</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -5712,11 +5724,7 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__RepositoryOpsRebasePayloadBuilderV1</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__RepositoryOpsRebasePayloadBuilderV1UTest</apexClass>
+        <apexClass>sf_devops__RepositoryOpsRebasePayloadBuilderV2</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -5901,6 +5909,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__RestVersionedPromoteServiceUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ResultHandlerHerokuFieldsValidationFTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -6240,6 +6252,18 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__SystemService</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SystemServiceFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SystemServiceImpl</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__TargetSearchResults</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -6537,6 +6561,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__TestSubmitComponentBuilder</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__TestSystemServiceImplFTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -7904,6 +7932,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__VersionName</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__VersionPromoteUseCase</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -7937,6 +7969,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__VersionedToVersionedWorkItemsLocator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VersionsSelector</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VersionsSelectorFTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -18615,6 +18655,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>sf_devops__Async_Operation_Result__c.sf_devops__Dependent_Records__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>sf_devops__Async_Operation_Result__c.sf_devops__Error_Details__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -18646,6 +18691,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>sf_devops__Branch__c.sf_devops__Ignore_Rules__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Branch__c.sf_devops__Remote_Reference_Date__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -19141,6 +19191,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>sf_devops__Work_Item__c.sf_devops__Promoted__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item__c.sf_devops__Rebase_Branch__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>

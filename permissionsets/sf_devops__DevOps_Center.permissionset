@@ -44,7 +44,16 @@
         <apexClass>sf_devops__WorkItemController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>sf_devops__Version__mdt</name>
+    </customMetadataTypeAccesses>
     <description>Provides the data access and permissions needed to manage customizations for DevOps Center work items. Includes access to work environments. Typically applied to team members who work on DevOps Center projects.</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>sf_devops__Async_Operation_Result__c.sf_devops__Dependent_Records__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>sf_devops__Async_Operation_Result__c.sf_devops__Error_Details__c</field>
@@ -78,6 +87,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>sf_devops__Branch__c.sf_devops__Ignore_Rules__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>sf_devops__Branch__c.sf_devops__Remote_Reference_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -482,7 +496,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>sf_devops__Work_Item__c.sf_devops__Rebase_Remote_Reference__c</field>
+        <field>sf_devops__Work_Item__c.sf_devops__Rebase_Branch__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

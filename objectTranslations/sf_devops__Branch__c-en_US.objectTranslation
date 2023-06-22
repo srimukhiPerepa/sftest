@@ -15,6 +15,10 @@
         <name>sf_devops__Parent_Remote_Reference__c</name>
     </fields>
     <fields>
+        <label><!-- Remote Reference Date --></label>
+        <name>sf_devops__Remote_Reference_Date__c</name>
+    </fields>
+    <fields>
         <help><!-- The latest remote reference on our branch. --></help>
         <label><!-- Remote Reference --></label>
         <name>sf_devops__Remote_Reference__c</name>

@@ -362,9 +362,23 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>sf_devops__Rebase_Branch__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The rebase branch that this work item is using.</description>
+        <externalId>false</externalId>
+        <label>Rebase Branch</label>
+        <referenceTo>sf_devops__Branch__c</referenceTo>
+        <relationshipLabel>Rebased Work Items</relationshipLabel>
+        <relationshipName>Rebased_Work_Items</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>sf_devops__Rebase_Remote_Reference__c</fullName>
         <deprecated>false</deprecated>
-        <description>The VCS specific Id of the OLD_PARENT to use on the next rebase --onto.</description>
+        <description>This field is deprecated and should not be referenced</description>
         <externalId>false</externalId>
         <label>Rebase Remote Reference</label>
         <length>255</length>
@@ -637,12 +651,19 @@ sf_devops__Promoted__c
         <errorMessage>A WorkItem cannot be promoted if it is not Approved.</errorMessage>
     </validationRules>
     <validationRules>
+        <fullName>sf_devops__Rebase_Branch</fullName>
+        <active>true</active>
+        <description>Rebase_Branch__c can be set only on a promoted , unbundled, and not concluded Work_Item__c.</description>
+        <errorConditionFormula>AND( OR( ISNEW() , ISCHANGED( sf_devops__Rebase_Branch__c ) , ISCHANGED( sf_devops__Change_Bundle__c ) , ISCHANGED( sf_devops__Concluded__c ) , ISCHANGED( sf_devops__Promoted__c ) ) , NOT ( ISBLANK(  sf_devops__Rebase_Branch__c  ) ), 
+OR( NOT (  sf_devops__Promoted__c  ) , NOT ( ISBLANK (  sf_devops__Change_Bundle__c  ) ) , NOT ( ISBLANK( sf_devops__Concluded__c) ) ) )</errorConditionFormula>
+        <errorMessage>A Work Item cannot have its Rebase Branch field set if it is un-promoted, bundled or concluded.</errorMessage>
+    </validationRules>
+    <validationRules>
         <fullName>sf_devops__Rebase_Remote_Reference</fullName>
         <active>true</active>
-        <description>Rebase_Remote_Reference__c can be set only on a promoted , unbundled, and not concluded Work_Item__c.</description>
-        <errorConditionFormula>AND( OR( ISNEW() , ISCHANGED( sf_devops__Rebase_Remote_Reference__c ) , ISCHANGED( sf_devops__Change_Bundle__c ) , ISCHANGED( sf_devops__Concluded__c ) , ISCHANGED( sf_devops__Promoted__c ) ) , NOT ( ISBLANK(  sf_devops__Rebase_Remote_Reference__c  ) ), 
-OR( NOT (  sf_devops__Promoted__c  ) , NOT ( ISBLANK (  sf_devops__Change_Bundle__c  ) ) , NOT ( ISBLANK( sf_devops__Concluded__c) ) ) )</errorConditionFormula>
-        <errorMessage>A Work Item cannot have its Rebase Remote Reference field set if it is un-promoted, bundled or concluded.</errorMessage>
+        <description>This rule is no longer enforced</description>
+        <errorConditionFormula>FALSE</errorConditionFormula>
+        <errorMessage>Deprecated</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>sf_devops__Remote_Reference_Without_Review</fullName>

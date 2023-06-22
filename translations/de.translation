@@ -477,6 +477,10 @@
         <name>sf_devops__activityHistory</name>
     </customLabels>
     <customLabels>
+        <label><!-- Summary for the migration of a rebase branch event. --></label>
+        <name>sf_devops__activityMigrateRebaseBranchComplete</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Summary for a stage getting a quick deploy. --></label>
         <name>sf_devops__activityQuickDeployComplete</name>
     </customLabels>
@@ -627,6 +631,10 @@
     <customLabels>
         <label><!-- Display text for work item commit activity type. --></label>
         <name>sf_devops__activityTypeExternalCommit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for a migration event. --></label>
+        <name>sf_devops__activityTypeMigration</name>
     </customLabels>
     <customLabels>
         <label><!-- Display text for a stage getting a quick deploy. --></label>
@@ -3179,6 +3187,10 @@
     <customLabels>
         <label><!-- Application UI text for &quot;Unable to connect dialog header&quot;. --></label>
         <name>sf_devops__unableToConnectHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when we are unable to rebasing. --></label>
+        <name>sf_devops__unableToRebase</name>
     </customLabels>
     <customLabels>
         <label><!-- Message when a Rest promotion request indicates unapproved work items --></label>

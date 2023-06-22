@@ -192,6 +192,16 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>sf_devops__Remote_Reference_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Stores the last time Remote_Reference__c has been updated in the Branch__c.</description>
+        <externalId>false</externalId>
+        <label>Remote Reference Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
         <fullName>sf_devops__Remote_Reference__c</fullName>
         <deprecated>false</deprecated>
         <description>The latest remote reference on our branch.</description>
